@@ -1,0 +1,16 @@
+name: cccd_scanner_app
+description: "Ứng dụng quét mã QR CCCD"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^5.2.3
+  fluttertoast: ^8.2.8
+
+flutter:
+  uses-material-design: true
